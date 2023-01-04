@@ -1,60 +1,41 @@
-
 # vite-react-tailwindcss starter
 
-a simple and clean starter for those who wants to start the project right way without any hassle.
+a simple and clean starter to start the project with Vite, Reactjs, Tailwind CSS.
 
-
-## Run it in your device
+## Run it locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/moinulmoin/vite-react-tailwind-starter project-name
+
+git clone https://github.com/moinulmoin/vite-react-tailwind-starter project-name
+
 ```
 
 Go to the project directory
 
 ```bash
-  cd project-name
+
+cd project-name
+
 ```
 
 ### Or you can just download it as zip, then
 
 Install dependencies
 
-```bash
-  npm install 
-```
+`npm install` or `yarn install`
 
 Start the server
 
-```bash
-  npm run dev
-```
-
-### Or if you are yarn user,
-
-Install dependencies
-
-```bash
-  yarn install
-```
-
-Start the server
-
-```bash
-  yarn dev
-```
+`npm run dev` or `yarn dev`
 
 Now customize everything as your needs.
 
-
-  
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-  
 ## Support
 
-If it really helps you then leave a star. Thank you💖
+Leave a star ⭐ if it helped you. Thank you💖
