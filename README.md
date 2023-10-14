@@ -1,41 +1,27 @@
-# vite-react-tailwindcss starter
+# React + TypeScript + Vite
 
-a simple and clean starter to start the project with Vite, Reactjs, Tailwind CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Run it locally
+Currently, two official plugins are available:
 
-Clone the project
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-```bash
+## Expanding the ESLint configuration
 
-git clone https://github.com/moinulmoin/vite-react-tailwind-starter project-name
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
+- Configure the top-level `parserOptions` property like this:
+
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
 ```
 
-Go to the project directory
-
-```bash
-
-cd project-name
-
-```
-
-### Or you can just download it as zip, then
-
-Install dependencies
-
-`npm install` or `yarn install`
-
-Start the server
-
-`npm run dev` or `yarn dev`
-
-Now customize everything as your needs.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Support
-
-Leave a star ⭐ if it helped you. Thank you💖
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
