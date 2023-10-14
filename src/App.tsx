@@ -1,3 +1,5 @@
+import { buttonVariants } from "./components/ui/button";
+
 function App() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen space-y-20">
@@ -8,8 +10,9 @@ function App() {
         href="https://github.com/moinulmoin/vite-react-tailwind-starter"
         target="_blank"
         rel="noreferrer"
+        className={buttonVariants()}
       >
-        <span className="text-xl underline underline-offset-2">Star on GitHub</span> :)
+        <span className="text-xl hover:underline underline-offset-2">Star on GitHub</span>&nbsp;:)
       </a>
     </main>
   );
