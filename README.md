@@ -33,4 +33,4 @@ If you are developing a production application, we recommend updating the config
 
 ## License 📄
 
-MIT License. [LICENSE](https://github.com/moinulmoin/chadnext/blob/main/LICENSE)
+[MIT License](https://github.com/moinulmoin/chadnext/blob/main/LICENSE)
