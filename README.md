@@ -33,4 +33,4 @@ If you are developing a production application, we recommend updating the config
 
 ## License 📄
 
-[MIT License](https://github.com/moinulmoin/chadnext/blob/main/LICENSE)
+[MIT License](https://github.com/moinulmoin/vite-react-tailwind-starter/blob/master/LICENSE)
