@@ -12,7 +12,7 @@ function App() {
         rel="noreferrer"
         className={buttonVariants()}
       >
-        <span className="text-xl hover:underline underline-offset-2">Star on GitHub</span>&nbsp;:)
+        <span className="text-lg hover:underline underline-offset-2">Star on GitHub</span>
       </a>
     </main>
   );
