@@ -1,20 +1,21 @@
-import { buttonVariants } from "@/components/ui/button";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import TopicPage from "@/pages/TopicPage";
+import TopicDetailPage from "@/pages/TopicDetailPage";
+import QuizPage from "./pages/QuizPage";
+import ResultPage from "./pages/ResultPage";
 
 function App() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen space-y-20">
-      <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-        Vite, React, Shadcn-ui minimal starter
-      </h1>
-      <a
-        href="https://github.com/moinulmoin/vite-react-tailwind-starter"
-        target="_blank"
-        rel="noreferrer"
-        className={buttonVariants()}
-      >
-        ⭐️ on GitHub
-      </a>
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/topics" element={<TopicPage />} />
+        <Route path="/topics/:topicId" element={<TopicDetailPage />} />
+        <Route path="/quiz/:id" element={<QuizPage />} />
+        <Route path="/result" element={<ResultPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

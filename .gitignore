@@ -23,3 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 .vscode
+
+# Dependency directories
+./public/pic/*
+./src/assets/*
+./src/data/*
+./node_modules/*

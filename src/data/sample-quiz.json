@@ -1,0 +1,17 @@
+{
+  "title": "Đề luyện tập: Hàm số bậc nhất",
+  "topic": "Hàm số",
+  "time_limit_minutes": 10,
+  "questions": [
+    {
+      "question": "Cho hàm số y = ax + b đi qua A(1,2) và B(2,5). Giá trị của a là?",
+      "options": ["1", "2", "3", "4"],
+      "correct_answer": "3"
+    },
+    {
+      "question": "Đồ thị hàm số y = 2x + 1 cắt trục hoành tại điểm nào?",
+      "options": ["(0;1)", "(1;0)", "(-0.5;0)", "(0;-1)"],
+      "correct_answer": "(-0.5;0)"
+    }
+  ]
+}
